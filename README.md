@@ -1,4 +1,4 @@
-#Flubber Flow Builder
+# Flubber Flow Builder
 
 A functional, fluent JavaScript/TypeScript DSL for building [Flubber](https://github.com/bhlangonijr/flubber) call flow JSON scripts.  
 Create readable, type-safe logic in code — compile to Flubber-compatible JSON via CLI.
@@ -7,11 +7,12 @@ Create readable, type-safe logic in code — compile to Flubber-compatible JSON 
 
 ## 📁 Project Structure
 
+```bash
 src/
 ├─ index.ts # Flow builder entry
 ├─ cli.ts # CLI to compile JS/TS files to JSON
 └─ actions.ts # Base/native action definitions
-
+```
 ---
 
 ## ⚙️ Dev Environment Setup
