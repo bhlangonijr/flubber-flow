@@ -1,0 +1,22 @@
+{
+    "name": "@flubber/flow-builder",
+    "version": "0.1.0",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "bin": {
+        "flubber-flow": "dist/cli.js"
+    },
+    "scripts": {
+        "build": "tsc",
+        "prepare": "npm run build"
+    },
+    "dependencies": {
+        "fs-extra": "^10.0.0",
+        "yargs": "^17.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^24.0.10",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.3"
+    }
+}
